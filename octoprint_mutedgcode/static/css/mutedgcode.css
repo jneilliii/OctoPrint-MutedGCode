@@ -1,0 +1,3 @@
+#sidebar_plugin_mutedgcode .controls>.checkbox:first-child {
+    padding-top: unset;
+}

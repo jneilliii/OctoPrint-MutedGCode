@@ -1,0 +1,10 @@
+<form class="form-inline">
+    <div class="row-fluid" data-bind="foreach: muted_commands">
+        <div class="control-group">
+            <div class="controls">
+                <label class="checkbox"><span data-bind="text: command"></span><input type="checkbox" data-bind="checked: enabled, click: $root.toggleCommand" /></label>
+                <button class="btn btn-mini btn-danger pull-right" data-bind="click: $root.removeCommand"><i class="fas fa-trash"></i></button>
+            </div>
+        </div>
+    </div>
+</form>
